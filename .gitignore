@@ -1,0 +1,31 @@
+
+# Entorno virtual
+venv/
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Configuraciones locales
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Modelos entrenados (almacenados en Hugging Face)
+models/
+*.joblib
+
+# Datos completos de entrenamiento, validación y prueba
+data/raw/
+data/processed/
+
+# Cachés y archivos temporales
+.cache/
+.ipynb_checkpoints/
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
